@@ -14,8 +14,8 @@
             name="keywords"
             content="Караван-Сарай, кавказская кухня, восточная кухня, пицца, роллы, кофе, доставка еды, ресторан, Дербент, город Дербент"
         />
-      <script type="module" crossorigin src="/caravanserai/assets/index-B-D61oJR.js"></script>
-      <link rel="stylesheet" crossorigin href="/caravanserai/assets/index-DRTBXGyY.css">
+      <script type="module" crossorigin src="/caravanserai/assets/index-BzME3rj9.js"></script>
+      <link rel="stylesheet" crossorigin href="/caravanserai/assets/index-SyuPJSCK.css">
     </head>
     <body>
         <header class="header">
@@ -139,10 +139,7 @@
 
         <div class="swiper menu__swiper">
             <div class="swiper-wrapper menu__controls">
-                <div
-                    class="swiper-slide menu__filter active"
-                    data-filter="all"
-                >
+                <div class="swiper-slide menu__filter active" data-filter="all">
                     Все
                 </div>
                 <div class="swiper-slide menu__filter" data-filter="hot">
@@ -497,6 +494,114 @@
         </div>
 
         <button class="menu__btn">Смотреть все</button>
+    </div>
+</section>
+
+<section class="reservation" id="reservation">
+    <div class="container reservation__container">
+        <div class="reservation__left"></div>
+
+        <div class="reservation__wrapper">
+            <div class="reservation__title">
+                <svg
+                    width="80"
+                    height="21"
+                    viewBox="0 0 80 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <rect
+                        x="20"
+                        y="10.085"
+                        width="60"
+                        height="1.00212"
+                        fill="#D9D9D9"
+                        fill-opacity="0.4"
+                    />
+                    <rect
+                        x="0.706357"
+                        width="13.0149"
+                        height="13.0149"
+                        transform="matrix(0.706357 -0.707856 0.706357 0.707856 0.207417 10.9851)"
+                        stroke="#EFE7D2"
+                        stroke-opacity="0.4"
+                    />
+                </svg>
+                <h3>Резервация</h3>
+                <svg
+                    width="80"
+                    height="21"
+                    viewBox="0 0 80 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <rect
+                        y="10.0847"
+                        width="60"
+                        height="1.00212"
+                        fill="#D9D9D9"
+                        fill-opacity="0.4"
+                    />
+                    <rect
+                        x="0.706357"
+                        width="13.0149"
+                        height="13.0149"
+                        transform="matrix(0.706357 -0.707856 0.706357 0.707856 60.2074 10.9849)"
+                        stroke="#EFE7D2"
+                        stroke-opacity="0.4"
+                    />
+                </svg>
+            </div>
+
+            <div class="reservation__subtitle">
+                Забронируйте себе место в Караван-Сарае, где вас ждут
+                незабываемые впечатления от еды
+            </div>
+
+            <form class="reservation__form">
+                <input
+                    class="reservation__form-input"
+                    id="name"
+                    type="text"
+                    placeholder="Ваше имя"
+                    pattern="[A-Za-zА-Яа-яЁё\s-]+"
+                    title="Не используйте цифры или спецсимволы"
+                    autocomplete="name"
+                    required
+                />
+                <!-- <input
+                    class="reservation__form-input"
+                    id="tel"
+                    type="tel"
+                    placeholder="Номер телефона"
+                    autocomplete="tel"
+                    pattern="^[78][0-9]{10}$"
+                    title="Введите номер из 11 цифр, начиная с 7 или 8"
+                    required
+                /> -->
+                <input
+                    class="reservation__form-input"
+                    id="guests"
+                    type="number"
+                    placeholder="Количество гостей"
+                    min="1"
+                    max="20"
+                    required
+                />
+                <input
+                    class="reservation__form-input"
+                    id="time"
+                    type="time"
+                    placeholder="Во сколько?"
+                    min="09:00"
+                    max="23:59"
+                    required
+                />
+                <button class="reservation__form-button" type="submit">
+                    Резервация в WhatsApp
+                </button>
+            </form>
+        </div>
     </div>
 </section>
 
