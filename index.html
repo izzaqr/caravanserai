@@ -14,7 +14,7 @@
             name="keywords"
             content="Караван-Сарай, кавказская кухня, восточная кухня, пицца, роллы, кофе, доставка еды, ресторан, Дербент, город Дербент"
         />
-      <script type="module" crossorigin src="/caravanserai/assets/index-BzME3rj9.js"></script>
+      <script type="module" crossorigin src="/caravanserai/assets/index-WKCvfWdL.js"></script>
       <link rel="stylesheet" crossorigin href="/caravanserai/assets/index-SyuPJSCK.css">
     </head>
     <body>
@@ -565,6 +565,7 @@
                     type="text"
                     placeholder="Ваше имя"
                     pattern="[A-Za-zА-Яа-яЁё\s-]+"
+                    maxlength="40"
                     title="Не используйте цифры или спецсимволы"
                     autocomplete="name"
                     required
@@ -591,10 +592,9 @@
                 <input
                     class="reservation__form-input"
                     id="time"
-                    type="time"
+                    type="text"
                     placeholder="Во сколько?"
-                    min="09:00"
-                    max="23:59"
+                    maxlength="40"
                     required
                 />
                 <button class="reservation__form-button" type="submit">
